@@ -1,0 +1,14 @@
+[
+  {
+    "table_name": "comfort_lookup",
+    "description": "Contains precomputed acoustic metrics and comfort index scores for different apartment configurations. Includes data such as apartment_type_string, zone_string, floor_height, laeq_db, rt60_seconds, spl_db, surface_area_m2, average_source_db, absorption_coefficient, barrier_distance_m, barrier_height_m, spl_after_barrier, spl_after_facade, and comfort_index_float."
+  },
+  {
+    "table_name": "material_knowledge",
+    "description": "Lists acoustic material properties including material type (wall/window), material name, thickness_mm, absorption_coefficient_500hz, and sound_transmission_loss_stl_db."
+  },
+  {
+    "table_name": "compliance_thresholds",
+    "description": "Defines WHO/ISO acoustic comfort thresholds by activity type, including maximum allowable LAeq and RT60 values. Used to check whether predicted results are compliant for uses such as sleeping, working, living, or healing."
+  }
+]

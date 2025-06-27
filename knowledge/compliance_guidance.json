@@ -1,0 +1,268 @@
+{
+  "compliance_thresholds": {
+    "day_ranges": {
+      "HD-Urban-V0": {"min": 15.0, "max": 60.0, "description": "High Density Urban - Very Strict"},
+      "HD-Urban-V1": {"min": 15.0, "max": 60.0, "description": "High Density Urban - Standard"},
+      "MD-Urban-V2": {"min": 15.0, "max": 60.0, "description": "Medium Density Urban"},
+      "LD-Urban-V3": {"min": 15.0, "max": 40.0, "description": "Low Density Urban"},
+      "Ind-Zone-V0": {"min": 15.0, "max": 55.0, "description": "Industrial Zone"},
+      "Roadside-V1": {"min": 10.0, "max": 55.0, "description": "Roadside - High Traffic"},
+      "Roadside-V2": {"min": 15.0, "max": 50.0, "description": "Roadside - Medium Traffic"},
+      "Roadside-V3": {"min": 15.0, "max": 55.0, "description": "Roadside - Very High Traffic"},
+      "GreenEdge-V3": {"min": 30.0, "max": 45.0, "description": "Green Edge - Quiet Area"}
+    },
+    "night_ranges": {
+      "HD-Urban-V0": {"min": 10.0, "max": 30.0, "description": "High Density Urban - Very Strict Night"},
+      "HD-Urban-V1": {"min": 15.0, "max": 30.0, "description": "High Density Urban - Standard Night"},
+      "MD-Urban-V2": {"min": 12.0, "max": 28.0, "description": "Medium Density Urban Night"},
+      "LD-Urban-V3": {"min": 18.0, "max": 35.0, "description": "Low Density Urban Night"},
+      "Ind-Zone-V0": {"min": 40.0, "max": 45.0, "description": "Industrial Zone Night"},
+      "Roadside-V1": {"min": 35.0, "max": 50.0, "description": "Roadside - High Traffic Night"},
+      "Roadside-V2": {"min": 30.0, "max": 45.0, "description": "Roadside - Medium Traffic Night"},
+      "Roadside-V3": {"min": 30.0, "max": 45.0, "description": "Roadside - Very High Traffic Night"},
+      "GreenEdge-V3": {"min": 20.0, "max": 35.0, "description": "Green Edge - Quiet Area Night"}
+    },
+    "rt60_thresholds": {
+      "target": 0.4,
+      "max_deviation": 0.9,
+      "min": 0.2,
+      "description": "Reverberation Time - Optimal range for speech intelligibility"
+    },
+    "comfort_thresholds": {
+      "sleeping": 0.85,
+      "working": 0.75,
+      "learning": 0.80,
+      "living": 0.70,
+      "healing": 0.80,
+      "co_working": 0.75,
+      "exercise": 0.60,
+      "dining": 0.65,
+      "description": "Comfort index thresholds for different activities"
+    }
+  },
+  "zone_specific_guidance": {
+    "HD-Urban-V0": {
+      "description": "High Density Urban - Very Strict Standards",
+      "typical_sources": ["Traffic noise", "HVAC systems", "Neighbor activities", "Construction"],
+      "critical_considerations": [
+        "Maximum sound insulation required",
+        "Triple-glazed windows recommended",
+        "Heavy mass construction preferred",
+        "Acoustic seals on all openings"
+      ],
+      "material_recommendations": {
+        "walls": ["Concrete block with insulation", "Double stud walls", "Mass-loaded vinyl"],
+        "windows": ["Triple-glazed acoustic", "Laminated glass", "Acoustic seals"],
+        "doors": ["Solid core doors", "Acoustic door seals", "Threshold seals"]
+      }
+    },
+    "HD-Urban-V1": {
+      "description": "High Density Urban - Standard Standards",
+      "typical_sources": ["Traffic noise", "HVAC systems", "Neighbor activities"],
+      "critical_considerations": [
+        "High sound insulation required",
+        "Double-glazed acoustic windows",
+        "Mass construction recommended",
+        "Proper sealing of openings"
+      ],
+      "material_recommendations": {
+        "walls": ["Concrete block", "Insulated stud walls", "Acoustic panels"],
+        "windows": ["Double-glazed acoustic", "Laminated glass", "Weather stripping"],
+        "doors": ["Solid core doors", "Door seals", "Threshold seals"]
+      }
+    },
+    "GreenEdge-V3": {
+      "description": "Green Edge - Quiet Area Standards",
+      "typical_sources": ["Birds", "Wind", "Distant traffic", "Natural sounds"],
+      "critical_considerations": [
+        "Preserve natural soundscape",
+        "Minimize mechanical noise",
+        "Use natural materials",
+        "Design for biophilic acoustics"
+      ],
+      "material_recommendations": {
+        "walls": ["Natural materials", "Wood", "Stone", "Green walls"],
+        "windows": ["Standard glazing", "Natural ventilation", "Operable windows"],
+        "doors": ["Wood doors", "Natural materials", "Minimal seals"]
+      }
+    }
+  },
+  "RT60_non_compliant": {
+    "description": "RT60 exceeds recommended limits, causing excessive echo and poor intelligibility.",
+    "severity_levels": {
+      "low": {"range": "0.9-1.2s", "impact": "Slight echo, acceptable for some activities"},
+      "medium": {"range": "1.2-2.0s", "impact": "Moderate echo, affects speech intelligibility"},
+      "high": {"range": ">2.0s", "impact": "Severe echo, poor acoustic performance"}
+    },
+    "general_recommendations": [
+      "Add acoustic panels to ceilings or upper walls",
+      "Introduce thick rugs, curtains, and upholstered furniture",
+      "Use wall and ceiling finishes with high absorption coefficients",
+      "Break up open volumes with spatial dividers or baffles",
+      "Avoid large hard-surface areas like exposed concrete or glass"
+    ],
+    "contextual_rules": [
+      {
+        "condition": "wall_material contains 'concrete'",
+        "suggestion": "Concrete reflects sound — consider adding internal absorptive finishes like wood slats or acoustic felt panels."
+      },
+      {
+        "condition": "window_material contains 'glass'",
+        "suggestion": "Large glazed areas reflect sound — use thick curtains or acoustic glass treatments."
+      },
+      {
+        "condition": "volume > 1000",
+        "suggestion": "Large volumes require extensive acoustic treatment — consider suspended acoustic clouds and wall panels."
+      },
+      {
+        "condition": "height > 4",
+        "suggestion": "High ceilings increase RT60 — add suspended acoustic treatments and consider lower false ceilings."
+      }
+    ],
+    "material_solutions": {
+      "ceiling": ["Acoustic ceiling tiles", "Suspended acoustic clouds", "Fabric-wrapped panels"],
+      "walls": ["Acoustic wall panels", "Fabric-wrapped absorbers", "Perforated wood panels"],
+      "floor": ["Carpet with underlay", "Acoustic floor tiles", "Rubber flooring"],
+      "furniture": ["Upholstered seating", "Fabric curtains", "Soft furnishings"]
+    }
+  },
+  "LAeq_non_compliant": {
+    "description": "LAeq exceeds thresholds for this activity, indicating noise intrusion and potential discomfort.",
+    "severity_levels": {
+      "low": {"range": "40-45 dB", "impact": "Slight noise intrusion, may affect sensitive activities"},
+      "medium": {"range": "45-50 dB", "impact": "Moderate noise intrusion, affects most activities"},
+      "high": {"range": ">50 dB", "impact": "Severe noise intrusion, significant discomfort"}
+    },
+    "general_recommendations": [
+      "Upgrade to triple-glazed or laminated acoustic windows",
+      "Seal window and door frames to reduce air leakage and flanking",
+      "Use higher-STC wall constructions with insulation layers",
+      "Reposition the room or activity away from exposed facades",
+      "Add landscape elements (green walls, berms, tree buffers) to absorb external noise"
+    ],
+    "contextual_rules": [
+      {
+        "condition": "Floor_Level == 1",
+        "suggestion": "Since the room is on the ground floor, consider green buffers or berms to reduce street-level noise."
+      },
+      {
+        "condition": "Floor_Level > 1",
+        "suggestion": "At upper floors, prioritize improving window systems — use laminated or triple-glazed units for better LAeq reduction."
+      },
+      {
+        "condition": "wall_material contains 'brick'",
+        "suggestion": "Brick has moderate sound insulation — add an inner insulated layer or gypsum board to increase wall STC."
+      },
+      {
+        "condition": "wall_material contains 'lightweight'",
+        "suggestion": "Lightweight walls are poor noise barriers — consider using dense layers or soundproofing board."
+      },
+      {
+        "condition": "zone contains 'Roadside'",
+        "suggestion": "Roadside locations require maximum sound insulation — use mass-loaded construction and acoustic glazing."
+      },
+      {
+        "condition": "zone contains 'GreenEdge'",
+        "suggestion": "Green edge zones should preserve natural soundscape — focus on mechanical noise reduction and natural barriers."
+      }
+    ],
+    "material_solutions": {
+      "windows": ["Triple-glazed acoustic", "Laminated glass", "Acoustic seals", "Secondary glazing"],
+      "walls": ["Mass-loaded construction", "Double stud walls", "Acoustic insulation", "Soundproofing board"],
+      "doors": ["Acoustic doors", "Door seals", "Threshold seals", "Sound locks"],
+      "external": ["Green walls", "Noise barriers", "Landscaping", "Berms"]
+    }
+  },
+  "comfort_score_non_compliant": {
+    "description": "Comfort score below threshold for the intended activity, indicating poor acoustic comfort.",
+    "activity_specific_thresholds": {
+      "sleeping": {"threshold": 0.85, "description": "Highest comfort required for rest"},
+      "working": {"threshold": 0.75, "description": "Good comfort for productivity"},
+      "learning": {"threshold": 0.80, "description": "High comfort for concentration"},
+      "living": {"threshold": 0.70, "description": "Standard comfort for daily activities"},
+      "healing": {"threshold": 0.80, "description": "High comfort for recovery"},
+      "co_working": {"threshold": 0.75, "description": "Good comfort for collaboration"},
+      "exercise": {"threshold": 0.60, "description": "Lower comfort acceptable for active use"},
+      "dining": {"threshold": 0.65, "description": "Moderate comfort for social activities"}
+    },
+    "improvement_strategies": [
+      "Optimize room geometry and proportions",
+      "Improve material absorption coefficients",
+      "Reduce noise sources and transmission",
+      "Enhance spatial acoustic design",
+      "Consider activity-specific acoustic requirements"
+    ]
+  },
+  "apartment_specific_guidance": {
+    "1B": {
+      "volume_range": {"min": 50, "max": 70, "optimal": 58},
+      "area_range": {"min": 16, "max": 25, "optimal": 19.33},
+      "acoustic_considerations": [
+        "Small spaces require careful material selection",
+        "Avoid over-treatment that makes space too dead",
+        "Focus on speech intelligibility",
+        "Consider multi-functional acoustic solutions"
+      ]
+    },
+    "2B": {
+      "volume_range": {"min": 70, "max": 95, "optimal": 81},
+      "area_range": {"min": 23, "max": 32, "optimal": 27.00},
+      "acoustic_considerations": [
+        "Balance between living and sleeping areas",
+        "Consider different acoustic zones",
+        "Use flexible acoustic solutions",
+        "Optimize for both privacy and openness"
+      ]
+    },
+    "3B": {
+      "volume_range": {"min": 95, "max": 120, "optimal": 108},
+      "area_range": {"min": 32, "max": 40, "optimal": 36.00},
+      "acoustic_considerations": [
+        "Multiple acoustic zones required",
+        "Consider family dynamics and privacy",
+        "Use zoning strategies for different activities",
+        "Balance open plan with acoustic separation"
+      ]
+    }
+  },
+  "construction_phase_guidance": {
+    "design_phase": [
+      "Incorporate acoustic requirements in early design",
+      "Consider room proportions and geometry",
+      "Plan for acoustic material integration",
+      "Design for future flexibility and adaptability"
+    ],
+    "construction_phase": [
+      "Ensure proper installation of acoustic materials",
+      "Verify sealing and isolation details",
+      "Test acoustic performance during construction",
+      "Document acoustic specifications and installations"
+    ],
+    "post_construction": [
+      "Conduct acoustic testing and verification",
+      "Fine-tune acoustic treatments if needed",
+      "Provide user guidance for acoustic maintenance",
+      "Monitor long-term acoustic performance"
+    ]
+  },
+  "cost_considerations": {
+    "low_cost_solutions": [
+      "Acoustic curtains and drapes",
+      "Area rugs and carpet underlay",
+      "Fabric wall panels",
+      "Bookshelves and furniture placement"
+    ],
+    "medium_cost_solutions": [
+      "Acoustic ceiling tiles",
+      "Wall-mounted acoustic panels",
+      "Acoustic door seals",
+      "Secondary glazing"
+    ],
+    "high_cost_solutions": [
+      "Triple-glazed acoustic windows",
+      "Mass-loaded construction",
+      "Acoustic isolation systems",
+      "Professional acoustic design and testing"
+    ]
+  }
+}

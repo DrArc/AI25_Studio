@@ -1,0 +1,267 @@
+[
+  {
+    "material": "Painted Brick",
+    "category": "wall",
+    "Absorption_Coefficient_500Hz": 0.01
+  },
+  {
+    "material": "Unpainted Brick",
+    "category": "wall",
+    "Absorption_Coefficient_500Hz": 0.03
+  },
+  {
+    "material": "Concrete Block (Coarse)",
+    "category": "wall",
+    "Absorption_Coefficient_500Hz": 0.36
+  },
+  {
+    "material": "Concrete Block (Painted)",
+    "category": "wall",
+    "Absorption_Coefficient_500Hz": 0.46
+  },
+  {
+    "material": "Gypsum Board",
+    "category": "wall",
+    "Absorption_Coefficient_500Hz": 0.05
+  },
+  {
+    "material": "Plaster on Masonry",
+    "category": "wall",
+    "Absorption_Coefficient_500Hz": 0.02
+  },
+  {
+    "material": "Plaster with Wallpaper Backing",
+    "category": "wall",
+    "Absorption_Coefficient_500Hz": 0.04
+  },
+  {
+    "material": "Wood Paneling",
+    "category": "wall",
+    "Absorption_Coefficient_500Hz": 0.15
+  },
+  {
+    "material": "Acoustic Plaster",
+    "category": "wall",
+    "Absorption_Coefficient_500Hz": 0.5
+  },
+  {
+    "material": "Fiberglass Board",
+    "category": "wall",
+    "Absorption_Coefficient_500Hz": 0.65
+  },
+  {
+    "material": "Fabric-Wrapped Panel",
+    "category": "wall",
+    "Absorption_Coefficient_500Hz": 0.8
+  },
+  {
+    "material": "Mineral Wool Insulation",
+    "category": "wall",
+    "Absorption_Coefficient_500Hz": 0.75
+  },
+  {
+    "material": "Acoustic Foam Panel",
+    "category": "wall",
+    "Absorption_Coefficient_500Hz": 0.85
+  },
+  {
+    "material": "Clay Brick Wall (Painted)",
+    "category": "wall",
+    "Absorption_Coefficient_500Hz": 0.25
+  },
+  {
+    "material": "Single Pane Glass",
+    "category": "window",
+    "Absorption_Coefficient_500Hz": 0.1
+  },
+  {
+    "material": "Double Pane Glass",
+    "category": "window",
+    "Absorption_Coefficient_500Hz": 0.18
+  },
+  {
+    "material": "Laminated Glass",
+    "category": "window",
+    "Absorption_Coefficient_500Hz": 0.2
+  },
+  {
+    "material": "Wired Glass",
+    "category": "window",
+    "Absorption_Coefficient_500Hz": 0.05
+  },
+  {
+    "material": "Frosted Glass",
+    "category": "window",
+    "Absorption_Coefficient_500Hz": 0.06
+  },
+  {
+    "material": "Insulated Glazing Unit",
+    "category": "window",
+    "Absorption_Coefficient_500Hz": 0.03
+  },
+  {
+    "material": "Glass Block",
+    "category": "window",
+    "Absorption_Coefficient_500Hz": 0.01
+  },
+  {
+    "material": "Glazed Ceramic Tile",
+    "category": "window",
+    "Absorption_Coefficient_500Hz": 0.01
+  },
+  {
+    "material": "Large Pane Glass",
+    "category": "window",
+    "Absorption_Coefficient_500Hz": 0.04
+  },
+  {
+    "material": "Small Pane Glass",
+    "category": "window",
+    "Absorption_Coefficient_500Hz": 0.03
+  },
+  {
+    "material": "Triple Glazing",
+    "category": "window",
+    "Absorption_Coefficient_500Hz": 0.22
+  },
+  {
+    "material": "Low-E Glass",
+    "category": "window",
+    "Absorption_Coefficient_500Hz": 0.19
+  },
+  {
+    "material": "Vacuum Insulated Glazing",
+    "category": "window",
+    "Absorption_Coefficient_500Hz": 0.25
+  },
+  {
+    "material": "Marble",
+    "category": "floor",
+    "Absorption_Coefficient_500Hz": 0.01
+  },
+  {
+    "material": "Terrazzo",
+    "category": "floor",
+    "Absorption_Coefficient_500Hz": 0.01
+  },
+  {
+    "material": "Vinyl Tile",
+    "category": "floor",
+    "Absorption_Coefficient_500Hz": 0.03
+  },
+  {
+    "material": "Wood Parquet",
+    "category": "floor",
+    "Absorption_Coefficient_500Hz": 0.07
+  },
+  {
+    "material": "Wood Flooring on Joists",
+    "category": "floor",
+    "Absorption_Coefficient_500Hz": 0.1
+  },
+  {
+    "material": "Thin Carpet on Concrete",
+    "category": "floor",
+    "Absorption_Coefficient_500Hz": 0.25
+  },
+  {
+    "material": "Thin Carpet on Wood",
+    "category": "floor",
+    "Absorption_Coefficient_500Hz": 0.3
+  },
+  {
+    "material": "Medium Pile Carpet",
+    "category": "floor",
+    "Absorption_Coefficient_500Hz": 0.5
+  },
+  {
+    "material": "Thick Pile Carpet",
+    "category": "floor",
+    "Absorption_Coefficient_500Hz": 0.5
+  },
+  {
+    "material": "Cork Floor Tiles",
+    "category": "floor",
+    "Absorption_Coefficient_500Hz": 0.15
+  },
+  {
+    "material": "Rubber Flooring",
+    "category": "floor",
+    "Absorption_Coefficient_500Hz": 0.35
+  },
+  {
+    "material": "Concrete with Acoustic Underlay",
+    "category": "floor",
+    "Absorption_Coefficient_500Hz": 0.28
+  },
+  {
+    "material": "Engineered Wood",
+    "category": "floor",
+    "Absorption_Coefficient_500Hz": 0.12
+  },
+  {
+    "material": "Solid Wood Door",
+    "category": "door",
+    "Absorption_Coefficient_500Hz": 0.06
+  },
+  {
+    "material": "Hollow-Core Wood Door",
+    "category": "door",
+    "Absorption_Coefficient_500Hz": 0.15
+  },
+  {
+    "material": "Acoustic Door",
+    "category": "door",
+    "Absorption_Coefficient_500Hz": 0.44
+  },
+  {
+    "material": "Steel Door with Acoustic Treatment",
+    "category": "door",
+    "Absorption_Coefficient_500Hz": 0.49
+  },
+  {
+    "material": "Plywood Door",
+    "category": "door",
+    "Absorption_Coefficient_500Hz": 0.1
+  },
+  {
+    "material": "Single Pane Glass Door",
+    "category": "door",
+    "Absorption_Coefficient_500Hz": 0.04
+  },
+  {
+    "material": "Double Pane Glass Door",
+    "category": "door",
+    "Absorption_Coefficient_500Hz": 0.03
+  },
+  {
+    "material": "Laminated Glass Door",
+    "category": "door",
+    "Absorption_Coefficient_500Hz": 0.2
+  },
+  {
+    "material": "Sliding Wood Door",
+    "category": "door",
+    "Absorption_Coefficient_500Hz": 0.05
+  },
+  {
+    "material": "Fire-Rated Door with Mineral Core",
+    "category": "door",
+    "Absorption_Coefficient_500Hz": 0.35
+  },
+  {
+    "material": "Composite Acoustic Door",
+    "category": "door",
+    "Absorption_Coefficient_500Hz": 0.55
+  },
+  {
+    "material": "Glass Reinforced Plastic Door",
+    "category": "door",
+    "Absorption_Coefficient_500Hz": 0.08
+  },
+  {
+    "material": "Acoustic Sliding Partition",
+    "category": "door",
+    "Absorption_Coefficient_500Hz": 0.4
+  }
+]

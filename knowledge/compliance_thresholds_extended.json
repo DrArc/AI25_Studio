@@ -1,0 +1,44 @@
+[
+    {
+        "use": "Living",
+        "LAeq_max": 40,
+        "RT60_max": 0.6,
+        "source": "WHO 2018, ISO 3382-2"
+    },
+    {
+        "use": "Sleeping",
+        "LAeq_max": 35,
+        "RT60_max": 0.5,
+        "source": "WHO 2018"
+    },
+    {
+        "use": "Co-working",
+        "LAeq_max": 45,
+        "RT60_max": 0.5,
+        "source": "ISO 3382-2"
+    },
+    {
+        "use": "Classroom",
+        "LAeq_max": 35,
+        "RT60_max": 0.6,
+        "source": "ISO 3382-1, ANSI S12.60-2010"
+    },
+    {
+        "use": "Conference Room",
+        "LAeq_max": 40,
+        "RT60_max": 0.6,
+        "source": "ISO 3382-2"
+    },
+    {
+        "use": "Corridor / Hallway",
+        "LAeq_max": 45,
+        "RT60_max": 0.8,
+        "source": "ISO 3382-2"
+    },
+    {
+        "use": "Open Office",
+        "LAeq_max": 45,
+        "RT60_max": 0.6,
+        "source": "ISO 3382-2, DIN 18041"
+    }
+]
