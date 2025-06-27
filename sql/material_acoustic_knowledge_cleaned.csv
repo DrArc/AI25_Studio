@@ -1,0 +1,10 @@
+material,Element,Absorption_Coefficient_500Hz
+Painted Brick,wall,0.01
+Unpainted Brick,wall,0.03
+Concrete Block (Coarse),wall,0.36
+Concrete Block (Painted),wall,0.46
+Gypsum Board,wall,0.05
+Double Pane Glass,window,0.18
+Triple Glazing,window,0.22
+Medium Pile Carpet,floor,0.5
+Solid Wood Door,door,0.06

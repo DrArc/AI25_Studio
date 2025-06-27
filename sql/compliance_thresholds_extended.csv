@@ -1,0 +1,8 @@
+use,LAeq_max,RT60_max,source
+Living,40,0.6,"WHO 2018, ISO 3382-2"
+Sleeping,35,0.5,WHO 2018
+Co-working,45,0.5,ISO 3382-2
+Classroom,35,0.6,"ISO 3382-1, ANSI S12.60-2010"
+Conference Room,40,0.6,ISO 3382-2
+Corridor / Hallway,45,0.8,ISO 3382-2
+Open Office,45,0.6,"ISO 3382-2, DIN 18041"
