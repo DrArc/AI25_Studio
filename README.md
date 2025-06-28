@@ -8,10 +8,10 @@ University Project for AI25Studio, IAACMaster in Advanced Computation for Archit
 
 ## Credits & Inspiration
 
-##LLM-SQL-Retrieval:
+## LLM-SQL-Retrieval:
 This repository utilizes and extends functionality from João Silva's LLM-SQL-Retrieval repository. https://github.com/jomiguelcarv/LLM-SQL-Retrieval.git  The original repository demonstrated a direct pipeline for SQL retrieval augmented with database schema injection and a self-debugging mechanism for failed queries. For more innovative approaches, check the BIRD Benchmark leaderboard. https://bird-bench.github.io/
 
-##Building Generator (BGD):
+## Building Generator (BGD):
 This course utilized the BGD Building Generator, provided by Michael T Walsh and Reinhardt Swart, to generate and modify spatial datasets. In our project, these datasets formed the basis for machine learning training to predict acoustic comfort in architectural environments
 
 ## Our Project Overview
