@@ -1,6 +1,9 @@
 # Ecoform Acoustic Copilot | AI25_Studio
 ## Design Copilot
 
+![image](https://github.com/user-attachments/assets/863e69e3-eb1b-4f4f-84e4-8c9a8f575582)
+
+
 
 University Project for AI25Studio, IAACMaster in Advanced Computation for Architecture & Design – MaCAD 24/25, Team 06
 
